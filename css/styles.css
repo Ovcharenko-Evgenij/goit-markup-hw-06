@@ -644,30 +644,33 @@ a {
 .footer-subscription-btn:focus {
   background: var(--hero-btn-color);
   color: var(--selection-text-color);
-}
+  fill: currentColor;
 
+}
+/* 
 .footer-subscription-icon {
   top: 50%;
   transform: translateY(11%);
   fill: currentColor;
-}
+} */
 
 /* .footer-subscription-btn:focus + .footer-subscription-icon svg {
   fill: var(--selection-text-color);
 } */
 
-.footer-subscription-icon:focus,
+/* .footer-subscription-icon:focus,
 .footer-subscription-icon:hover {
   fill: var(--selection-text-color);
-}
+} */
 
 .footer-btn-icon {
   justify-content: center;
   align-items: center;
   margin-left: 10px;
-  color: var(--hero-btn-color);
   display: inline-block;
   justify-content: center;
+  fill: currentColor;
+  
 }
 
 /* ----------beckdrop-------------------------------- */
